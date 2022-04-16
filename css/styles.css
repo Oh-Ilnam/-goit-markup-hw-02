@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 :root {
   --header: #ffffff;
   --portfolio: #2196f3;
@@ -29,6 +32,10 @@ body {
   list-style: none;
 }
 /* --------------------------------------------------------------GENERAL------------------------------------------------------------ */
+button {
+  cursor: pointer;
+}
+
 .logo {
   font-family: "Raleway";
   font-style: normal;
